@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+.material-icons .md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+  
+a, p{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header, footer {
+    height: 60px;
+}
+
+.container header {
+    display: flex;
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container header a {
+    padding-right: 15px;
+}
+
+.center .googlelogo {
+    margin-top: 29px;
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    margin: 0 auto;
+    padding-top: 109px;
+    width: 272px;
+    height: 92px;
+}
+
+#user {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%
+}
+
+#gmic {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+form {
+    padding-top: 23px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form #search {
+    display: flex;
+    width: 584px;
+    height: 44px;
+    border: 1px solid lightgrey;
+    z-index: 300;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding-right: 1em;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 3px 10px -5px;
+    align-items: center;
+}
+
+form #search:hover {
+    box-shadow: 0px 4px 4px -4px;
+}
+
+input[type=text] {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+form input[type="submit"] {
+    width: 142.58px;
+    height: 36px;
+    padding: 0;
+    background: #f2f2f2;
+    border-radius: 2px;
+    border: 0;
+    color: #757575;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+form input[type="submit"]:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: black;
+    cursor: pointer;
+}
+
+form input[type="submit"]:nth-of-type(1) {
+    margin-right: 6px;
+}
+
+form p {
+    margin-top: 28px;
+}
+
+form p #spanish {
+    text-decoration: none;
+    color: #1a0dab;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.top-footer {
+    padding-bottom: 13px;
+    padding-left: 30px;
+}
+
+.top-footer p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.bottom-footer {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #F2F2F2;
+    border-top: 1px solid #e4e4e4; 
+}
+
+#left-side {
+    float: left;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+#left-side a {
+    padding-left: 22px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#right-side {
+    float: right;
+    padding-right: 8px;
+    padding-top: 10px;
+}
+
+#right-side a {
+    padding-right: 22px;
+    color: rgba(0, 0, 0, 0.54);
+}

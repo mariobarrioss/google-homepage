@@ -44,21 +44,22 @@ a:hover{
     text-decoration: underline;
 }
 
-header, footer {
-    height: 60px;
+header {
+    height: 1px;
 }
 
 .container header {
     display: flex;
     float: right;
     padding-right: 15px;
-    padding-top: 15px;
+    padding-top: 5px;
     align-items: center;
     justify-content: flex-end;
 }
 
 .container header a {
     padding-right: 15px;
+    vertical-align: middle;
 }
 
 .center .googlelogo {
@@ -70,7 +71,7 @@ header, footer {
 
 #logo {
     margin: 0 auto;
-    padding-top: 109px;
+    padding-top: 170px;
     width: 272px;
     height: 92px;
 }
@@ -166,6 +167,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 60px;
     width: 100%;
     background-color: #F2F2F2;
     border-top: 1px solid #e4e4e4;
